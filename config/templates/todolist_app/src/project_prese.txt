@@ -1,0 +1,81 @@
+now i will explainabout my project wokring demo
+
+this is sign up page here you can enter your username, email, password, confirm password 
+
+
+you can enter again existing username or email and first enter your password like  python123 and your conrirmation password enter different  you get the message
+
+
+====================================
+login 
+	over here enter the different password to varahamihira account get the message
+====================================
+
+
+
+
+our project look like this
+
+over here you can see logged user name and you click these username you redirect your account and in these account you can see you all uploaded posts and At the top of the your profile page, you should see three numbers. One indicates how many posts you have ("posts"), another indicates how many people are following you ("followers"), and another indicates how many people you're following ("following"). Tap the "followers" number, and it should open to a list of the accounts that are following you.
+
+
+also you can logout your account simple you can click over here
+
+
+if you want to upload your post click to Tweepy button and You can upload any image and also write any caption but you write your content only 240 characters
+
+i select image and write any content and then final click on submit button. then you will be redirected to home page and you can see your uploaded post
+
+Then your followers can see your post then your followers can Like on posts
+
+
+here open two user account first user account already open here and second user account are open in another window
+
+and voramihir uploaded that post are visible to in all followers of voramihir and that followers see the all detail of posts like How many like, dislike and comments on that post and also able to read the caption of that posts and  that followers give  the like and disliks  And that followers can also make comments on posts
+
+if you want to read full detail of post like comments simple click on post and open to new page and see all detail of that post and  you can also read the another user comment and which users commented on that post  are visible  that users names and also visible to which time commented on that post ||  Here already  comments  are display 
+
+and if you want to write comments on that post you can do
+
+
+============================================================
+
+(update post)
+
+If you do not like the caption or images in this uploded post, you can update the post click on that update button
+
+
+============================================================
+
+(delete post)
+If you do not like this post, you can delete this particuler post
+
+=============================================================
+
+
+(Following)
+
+Now I want to do another user following then You can search for User accounts using the search bar  You can search people by their Name or Username. For example I am searching demo user account and You will find a related user account list for the user name you are searching for
+
+
+click that user account and see over here now visible to follow button if you want to follow that user  you can click follow button and now you can see change the text of follow button to unfollow  button
+
+
+and you can click following button now visible to list of users that you follow ; these users' posts appear on your feed, and you have access to view their profile if you want.
+
+
+
+over here you can see followers button visible to how many people following you and you can click follower button now visible to list of the users that follow you  these followers can see your all posts on both your profile.
+
+
+
+Ending line to says
+			that is all about my project working demo
+
+
+I want to ask a question
+
+	you can give me review Where do I need to improve
+
+
+=============================================================

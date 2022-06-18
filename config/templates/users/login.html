@@ -1,0 +1,55 @@
+{% extends 'users/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login User</title>
+</head>
+<body>
+<body class="my-login-page mt-4">
+    <section class="h-100">
+        <div class="container h-50" >
+            <div class="row justify-content-md-center  h-100 ">
+                <div class="card-wrapper ">
+                  <!--   <div class="brand">
+                        <img src="img/logo.jpg" alt="logo">
+                    </div> -->
+                    <div class="card border fat">
+                        <div class="card-body">
+                            <h4 class="card-title font-weight-bold">Login</h4>
+                            <form method="POST" class="my-login-validation" novalidate="">
+                                {% csrf_token %}
+                                <div class="form-group">
+                                    {{ form| crispy }}
+                                </div>
+
+                                      <div class="form-group m-0">
+                                    <button type="submit" class="btn btn-primary btn-block font-weight-bold border">
+                                        Login
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                 <!--    <div class="footer">
+                        Copyright &copy; 2017 &mdash; Your Company 
+                    </div> -->
+                                <div class="card border mt-4 pb-4">
+                                    <div class="mt-4 text-center font-weight-bold">
+                                       Do you need an account? <a class="ml-2" href="#">Sign up</a>
+                                    </div>
+                                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>	
+</html>
+
+{% endblock %}
+

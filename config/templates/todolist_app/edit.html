@@ -1,0 +1,24 @@
+{% extends 'includes/base.html' %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	{% block content %}
+	<div class="container">
+		<div class="row border p-4">
+			<div class="col-md-12">
+				<form class="" method="post">
+					{% csrf_token %}
+					{{form}}
+					<button type="submit" class="btn btn-success">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	{% endblock %}
+</body>
+</html>
